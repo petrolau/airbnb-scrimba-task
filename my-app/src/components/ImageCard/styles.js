@@ -3,10 +3,13 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
   display: flex;
   flex-direction: column;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  width: 100%;
 `;
 
 export const StyledImg = styled.img`
-  max-width: 200px;
+  width: 100%;
 `;
 
 export const StyledTitle = styled.div`
@@ -29,5 +32,4 @@ export const StyledDiv = styled.div`
 export const StyledWrap = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: space-between;
 `;

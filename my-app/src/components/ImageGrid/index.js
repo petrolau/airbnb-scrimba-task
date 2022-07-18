@@ -6,13 +6,13 @@ import ImageCard from "../ImageCard/index";
 
 const mockedImages = [
   {
-    alt: "Group Mountain Biking",
+    alt: "Mountain Biking",
     src: image1,
     rating: "5.0",
     number: 6,
     country: "USA",
     price: "$136",
-    author: "Katie Zaferes",
+    author: "Katie ",
   },
   {
     alt: "Life lessons",

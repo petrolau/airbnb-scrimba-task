@@ -13,7 +13,7 @@ const ImageCard = ({ data = [] }) => {
     <StyledWrap>
       {data.map((image) => (
         <StyledCard key={image.alt}>
-          <StyledImg alt={image.alt} src={`${image.src}`}></StyledImg>
+          <StyledImg alt={image.alt} src={`${image.src}`} />
           <div>
             <StyledTitle>
               <AiFillStar />
