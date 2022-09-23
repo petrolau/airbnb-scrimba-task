@@ -13,6 +13,8 @@ const mockedImages = [
     country: "USA",
     price: "$136",
     author: "Katie ",
+    openSpots: 0,
+    location: "Online",
   },
   {
     alt: "Life lessons",
@@ -22,6 +24,8 @@ const mockedImages = [
     country: "USA",
     price: "$139",
     author: "Lana Lune",
+    openSpots: 0,
+    location: "Online",
   },
   {
     alt: "wedding photography",
@@ -31,6 +35,8 @@ const mockedImages = [
     country: "USA",
     price: "$120",
     author: "Steven Ferrbs",
+    openSpots: 2,
+    location: "Online",
   },
 ];
 

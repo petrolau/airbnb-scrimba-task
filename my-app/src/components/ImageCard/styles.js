@@ -6,6 +6,7 @@ export const StyledCard = styled.div`
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   width: 100%;
+  position: relative;
 `;
 
 export const StyledImg = styled.img`
@@ -32,4 +33,14 @@ export const StyledDiv = styled.div`
 export const StyledWrap = styled.div`
   display: flex;
   flex-direction: row;
+`;
+
+export const StyledDivCard = styled.div`
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 `;

@@ -6,6 +6,7 @@ import {
   StyledSpans,
   StyledDiv,
   StyledWrap,
+  StyledDivCard,
 } from "./styles";
 
 const ImageCard = ({ data = [] }) => {
@@ -13,7 +14,8 @@ const ImageCard = ({ data = [] }) => {
     <StyledWrap>
       {data.map((image) => (
         <StyledCard key={image.alt}>
-          <StyledImg alt={image.alt} src={`${image.src}`} />
+          {image.openSpots === 0 && <StyledDivCard>SOLD OUT</StyledDivCard>}
+          <StyledImg alt={image.alt} src={image.src} />
           <div>
             <StyledTitle>
               <AiFillStar />
@@ -31,7 +33,6 @@ const ImageCard = ({ data = [] }) => {
               <span>From {image.price} /person </span>
             </StyledDiv>
           </div>
-          {console.log(image.src)}
         </StyledCard>
       ))}
     </StyledWrap>
